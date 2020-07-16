@@ -39,9 +39,9 @@ var config = {
         },
         {
             id: 'harrison1998',
-            title: 'Harrison Glacier, 1998',
-            image: '',
-            description: 'Harrison Glacier is located in the US state of Montana in Glacier National Park. Situated on a southeast facing ridge immediately south of Mount Jackson, Harrison Glacier is the largest glacier in Glacier National Park. Compared to many of the vanishing glaciers in Glacier National Park, Harrison Glacier has a much higher altitude accumulation zone (approximately 9,000 feet (2,700 m)) which has allowed it to maintain some equilibrium in its glacier mass balance.',
+            title: 'Land, Culture, History & Destiny',
+            image: 'https://ssl.c.photoshelter.com/img-get/I0000b6HRoGzjkwY/s/850/Evolution-of-Diet-010.jpg',
+            description: 'We Hadzabe have no record of famine in our oral history. The reason is that we depend on natural producs of the environment...',
             location: {
                 center: [-113.72917, 48.58938],
                 zoom: 12.92,
@@ -58,8 +58,8 @@ var config = {
         },
         {
             id: 'harrison2015',
-            title: 'Harrison Glacier, 2015',
-            image: '',
+            title: 'Origins',
+            image: 'https://jimmynelsonfoundation.com/wp-content/uploads/2019/04/jimmy-nelson-foundation-hadzabe-tanzania-gallery-mike-holtby-6-groter.jpg',
             description: 'Between 1998 and 2015, Harrison Glacier lost 169 acres of surface area (about 37%).',
             location: {
                 center: [-113.72917, 48.58938],
