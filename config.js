@@ -13,7 +13,7 @@ var config = {
             id: 'glacier-np',
             title: 'Introduction',
             image: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Hadza_montage.png',
-            description: 'The Hadza, or Hadzabe,[3][4] are an indigenous ethnic group in north-central Tanzania, living around Lake Eyasi in the central Rift Valley and in the neighboring Serengeti Plateau.',
+            description: 'The Hadzabe community of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...',
             location: {
                 center: [-113.91666, 48.66451],
                 zoom: 8,
@@ -60,7 +60,7 @@ var config = {
             id: 'harrison2015',
             title: 'Origins',
             image: 'https://jimmynelsonfoundation.com/wp-content/uploads/2019/04/jimmy-nelson-foundation-hadzabe-tanzania-gallery-mike-holtby-6-groter.jpg',
-            description: 'Between 1998 and 2015, Harrison Glacier lost 169 acres of surface area (about 37%).',
+            description: 'Research based on blood samples and DNA comparisons of people all over the world indicate that we Hadzabe are on of the original peoples.',
             location: {
                 center: [-113.72917, 48.58938],
                 zoom: 12.92,
