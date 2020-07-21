@@ -14,7 +14,6 @@ var config = {
             title: 'Introduction',
             image: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Hadza_montage.png',
             description: 'The Hadzabe community of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...',
-            alignment: 'right'
             location: {
                 center: [-36.28278, -0.78869],
                 zoom: 1.88,
