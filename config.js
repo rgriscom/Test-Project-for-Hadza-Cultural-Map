@@ -39,11 +39,11 @@ var config = {
                 bearing: 0
             },
             onChapterEnter: [{
-                    layer: 'country-label',
+                    layer: 'country-label-copy',
                     opacity: 1
                 }],
             onChapterExit: [{
-                    layer: 'country-label',
+                    layer: 'country-label-copy',
                     opacity: 0
                 }
                 
