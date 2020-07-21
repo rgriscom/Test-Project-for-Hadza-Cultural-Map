@@ -4,7 +4,7 @@ var config = {
     showMarkers: false,
     alignment: 'left',
     theme: 'dark',
-    title: '<b>Original</b> People',
+    title: '<p>Original People</p><p>The <a href="https://en.wikipedia.org/wiki/Hadza_people">Hadzabe community</a> of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...</p>',
     subtitle: 'Land, Culture, History & Destiny',
     byline: '',
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
