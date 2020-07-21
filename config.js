@@ -6,14 +6,14 @@ var config = {
     theme: 'light',
     title: '<center>Original People</center>',
     subtitle: '<center>Land, Culture, History & Destiny</center>',
-    byline: '<img src="https://www.dropbox.com/s/pd0c5xizaj3mu8r/front_cover_color.png?raw=1" align="left" style=”margin: 10px 10px 10px 10px;” /><p><h3>Introduction</h3></p><p>The Hadzabe community of the Yaida Valley requested <a href="http://www.ujamaa-crt.org/">UCRT</a> to assist them them to undertake a cultural mapping exercise. More than 200 Hadzabe, young and old, men and women, participated in this exercise during the months of October 2004 and October 2006. The goals of this exercise were among the following: a) to enable elders to impart to young people the deep connection between lang & culture through identifying and relating the stories of special sites; b) to show to outsiders & government leaders an ownership of land that only comes through a long historical relationship and a deep knowledge of the land; and c) in this vein to garner support for their rights to land and use of natural resources.</p>',
+    byline: '<i>An interactive story</i>',
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
             id: 'tanzania',
             title: 'Introduction',
             image: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Hadza_montage.png',
-            description: 'The <a href="https://en.wikipedia.org/wiki/Hadza_people">Hadzabe community</a> of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...',
+            description: 'The Hadzabe community of the Yaida Valley requested <a href="http://www.ujamaa-crt.org/">UCRT</a> to assist them them to undertake a cultural mapping exercise. More than 200 Hadzabe, young and old, men and women, participated in this exercise during the months of October 2004 and October 2006. The goals of this exercise were among the following: a) to enable elders to impart to young people the deep connection between lang & culture through identifying and relating the stories of special sites; b) to show to outsiders & government leaders an ownership of land that only comes through a long historical relationship and a deep knowledge of the land; and c) in this vein to garner support for their rights to land and use of natural resources.',
             location: {
                 center: [-36.28278, -0.78869],
                 zoom: 1.88,
