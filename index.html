@@ -133,13 +133,13 @@ var header = document.createElement('div');
 
 if (config.title) {
     var titleText = document.createElement('h1');
-    titleText.innerText = config.title;
+    titleText.innerHTML = config.title;
     header.appendChild(titleText);
 }
 
 if (config.subtitle) {
     var subtitleText = document.createElement('h2');
-    subtitleText.innerText = config.subtitle;
+    subtitleText.innerHTML = config.subtitle;
     header.appendChild(subtitleText);
 }
 
