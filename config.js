@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/rgriscom/ckcu0xy5h3cb01jleahvsa1f9',
     accessToken: 'pk.eyJ1IjoicmdyaXNjb20iLCJhIjoiY2tjb2hjbDljMGwzcTJwcGIxczEydmJ3aCJ9.fG3UHhMot8UFHrRIsTqfSA',
-    showMarkers: true,
+    showMarkers: false,
     alignment: 'left',
     theme: 'dark',
     title: 'Original People',
