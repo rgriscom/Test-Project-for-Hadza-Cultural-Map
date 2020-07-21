@@ -28,47 +28,59 @@ var config = {
             ]
         },
         {
-            id: 'eyasi',
+            id: 'land-culture-history',
             title: 'Land, Culture, History & Destiny',
             image: 'https://ssl.c.photoshelter.com/img-get/I0000b6HRoGzjkwY/s/850/Evolution-of-Diet-010.jpg',
             description: 'We Hadzabe have no record of famine in our oral history. The reason is that we depend on natural producs of the environment...',
             location: {
-                center: [34.87384, -3.84835],
-                zoom: 9.32,
-                pitch: 48.00,
-                bearing: -26.48
+                center: [27.90145, -5.75361],
+                zoom: 4.84,
+                pitch: 4.00,
+                bearing: 0
             },
-            onChapterEnter: [{
-                    layer: 'hadza-cultural-map',
-                    opacity: 1
-                }],
+            onChapterEnter: [],
             onChapterExit: [
-                {
-                    layer: 'hadza-cultural-map',
-                    opacity: 0
-                }
+                
             ]
         },
         {
-            id: 'harrison2015',
+            id: 'origins',
             title: 'Origins',
             image: 'https://jimmynelsonfoundation.com/wp-content/uploads/2019/04/jimmy-nelson-foundation-hadzabe-tanzania-gallery-mike-holtby-6-groter.jpg',
             description: 'Research based on blood samples and DNA comparisons of people all over the world indicate that we Hadzabe are on of the original peoples.',
             location: {
-                center: [-113.72917, 48.58938],
-                zoom: 12.92,
-                pitch: 39.50,
-                bearing: 36.00
+                center: [34.69620,  -3.67432],
+                zoom: 9.26,
+                pitch: 46.50,
+                bearing: 0
+            },
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'land-of-the-hadzabe',
+            title: 'Land of the Hadza',
+            image: 'https://jimmynelsonfoundation.com/wp-content/uploads/2019/04/jimmy-nelson-foundation-hadzabe-tanzania-gallery-mike-holtby-6-groter.jpg',
+            description: 'Research based on blood samples and DNA comparisons of people all over the world indicate that we Hadzabe are on of the original peoples.',
+            location: {
+                center: [34.69620,  -3.67432],
+                zoom: 9.26,
+                pitch: 46.50,
+                bearing: 0
             },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-2015',
-                    opacity: 0.25
+                    layer: 'hadza-cultural-map',
+                    opacity: 1
                 }
             ],
             onChapterExit: [
-                {
-                    layer: 'gnpglaciers-2015',
+               {
+                    layer: 'hadza-cultural-map',
                     opacity: 0
                 }
             ]
