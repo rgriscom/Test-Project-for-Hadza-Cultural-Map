@@ -157,7 +157,7 @@ var config = {
             id: 'land-of-the-hadzabe2',
             title: '',
             image: '',
-            description: '<p>Land occupied by the Hadza 50 years ago (red)</p><p>Land the Hadza have rights to today (green)</p>',
+            description: 'Land the Hadza have rights to today (green)',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
