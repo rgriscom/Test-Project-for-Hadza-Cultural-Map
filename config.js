@@ -217,6 +217,38 @@ var config = {
                 }
             ]
         }
+        {
+            id: 'land-of-the-hadzabe4',
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [34.69620,  -3.67432],
+                zoom: 9.26,
+                pitch: 46.50,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0.3
+                },
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+               {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0
+                },
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 0
+                }
+            ]
+        }
        
     ]
 };
