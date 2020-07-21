@@ -6,7 +6,7 @@ var config = {
     theme: 'light',
     title: '<center>Original People</center>',
     subtitle: '<center>Land, Culture, History & Destiny</center>',
-    byline: '<i>An interactive story</i>',
+    byline: '<center><i>An interactive story</i></center>',
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
