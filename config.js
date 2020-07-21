@@ -4,7 +4,7 @@ var config = {
     showMarkers: false,
     alignment: 'left',
     theme: 'dark',
-    title: 'Original People',
+    title: '<b>Original</b> People',
     subtitle: 'Land, Culture, History & Destiny',
     byline: '',
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
@@ -13,7 +13,7 @@ var config = {
             id: 'tanzania',
             title: 'Introduction',
             image: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Hadza_montage.png',
-            description: 'The Hadzabe community of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...',
+            description: 'The <a href="https://en.wikipedia.org/wiki/Hadza_people">Hadzabe community</a> of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...',
             location: {
                 center: [-36.28278, -0.78869],
                 zoom: 1.88,
