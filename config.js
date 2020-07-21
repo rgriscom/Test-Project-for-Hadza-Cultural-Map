@@ -10,7 +10,7 @@ var config = {
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
-            id: 'glacier-np',
+            id: 'hadza-cultural-map',
             title: 'Introduction',
             image: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Hadza_montage.png',
             description: 'The Hadzabe community of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...',
