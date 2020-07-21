@@ -3,7 +3,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoicmdyaXNjb20iLCJhIjoiY2tjb2hjbDljMGwzcTJwcGIxczEydmJ3aCJ9.fG3UHhMot8UFHrRIsTqfSA',
     showMarkers: false,
     alignment: 'left',
-    theme: 'dark',
+    theme: 'light',
     title: '<img src="https://www.dropbox.com/s/9n6tfez1bm8scnc/front_cover.png?raw=1">',
     subtitle: 'Land, Culture, History & Destiny',
     byline: '',
