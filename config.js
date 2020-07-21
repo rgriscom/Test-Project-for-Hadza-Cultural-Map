@@ -21,16 +21,10 @@ var config = {
                 bearing: -0.08
             },
             onChapterEnter: [
-                {
-                    layer: 'hadza-cultural-map',
-                    opacity: 1
-                }
+               
             ],
             onChapterExit: [
-                {
-                    layer: 'hadza-cultural-map',
-                    opacity: 0
-                }
+                
             ]
         },
         {
@@ -39,7 +33,7 @@ var config = {
             image: 'https://ssl.c.photoshelter.com/img-get/I0000b6HRoGzjkwY/s/850/Evolution-of-Diet-010.jpg',
             description: 'We Hadzabe have no record of famine in our oral history. The reason is that we depend on natural producs of the environment...',
             location: {
-                center: [-34.87384, -3.84835],
+                center: [34.87384, -3.84835],
                 zoom: 9.32,
                 pitch: 48.00,
                 bearing: -26.48
