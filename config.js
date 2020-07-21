@@ -10,50 +10,49 @@ var config = {
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
-            id: 'hadza-cultural-map',
+            id: 'tanzania',
             title: 'Introduction',
             image: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Hadza_montage.png',
             description: 'The Hadzabe community of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...',
             location: {
-                center: [35.21924, -3.73574],
-                zoom: 9.35,
+                center: [31.00547, -6.63305],
+                zoom: 5.16,
                 pitch: 47.00,
-                bearing: -35.20
+                bearing: -0.08
             },
             onChapterEnter: [
                 {
-                    layer: 'gnpglaciers-1998',
-                    opacity: 0.25
-                },
-                {
-                    layer: 'glaciernp-boundary',
-                    opacity: 0.25
+                    layer: 'hadza-cultural-map',
+                    opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'glaciernp-boundary',
+                    layer: 'hadza-cultural-map',
                     opacity: 0
                 }
             ]
         },
         {
-            id: 'harrison1998',
+            id: 'eyasi',
             title: 'Land, Culture, History & Destiny',
             image: 'https://ssl.c.photoshelter.com/img-get/I0000b6HRoGzjkwY/s/850/Evolution-of-Diet-010.jpg',
             description: 'We Hadzabe have no record of famine in our oral history. The reason is that we depend on natural producs of the environment...',
             location: {
-                center: [-113.72917, 48.58938],
-                zoom: 12.92,
-                pitch: 39.50,
-                bearing: 36.00
+                center: [-34.87384, -3.84835],
+                zoom: 9.32,
+                pitch: 48.00,
+                bearing: -26.48
             },
-            onChapterEnter: [],
+            onChapterEnter: [{
+                    layer: 'hadza-cultural-map',
+                    opacity: 1
+                }],
             onChapterExit: [
-                // {
-                //     layer: 'gnpglaciers-2015',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 0
+                }
             ]
         },
         {
