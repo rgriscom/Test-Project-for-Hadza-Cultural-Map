@@ -142,17 +142,113 @@ var config = {
             },
             onChapterEnter: [
                 {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0.3
+                }
+            ],
+            onChapterExit: [
+               {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'land-of-the-hadzabe2',
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [34.69620,  -3.67432],
+                zoom: 9.26,
+                pitch: 46.50,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0.3
+                },
+                {
+                    layer: 'hadza-area-today',
+                    opacity: 0.3
+                }
+            ],
+            onChapterExit: [
+               {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0
+                },
+                {
+                    layer: 'hadza-area-today',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'land-of-the-hadzabe2',
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [34.69620,  -3.67432],
+                zoom: 9.26,
+                pitch: 46.50,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0.3
+                },
+                {
+                    layer: 'hadza-area-today',
+                    opacity: 0.3
+                }
+            ],
+            onChapterExit: [
+               {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0
+                },
+                {
+                    layer: 'hadza-area-today',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'land-of-the-hadzabe3',
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [34.69620,  -3.67432],
+                zoom: 9.26,
+                pitch: 46.50,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0.3
+                },
+                {
                     layer: 'hadza-cultural-map',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                {
+                    layer: 'hadza-area-50-years-ago',
+                    opacity: 0
+                },
+                {
                     layer: 'hadza-cultural-map',
                     opacity: 0
                 }
             ]
-        },
+        }
        
     ]
 };
