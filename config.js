@@ -131,7 +131,7 @@ var config = {
         },
         {
             id: 'land-of-the-hadzabe',
-            title: '',
+            title: 'The Land of the Hadzabe',
             image: '',
             description: 'Land occupied by the Hadza 50 years ago (red)',
             location: {
