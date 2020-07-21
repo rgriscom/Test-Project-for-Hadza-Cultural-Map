@@ -97,7 +97,25 @@ var config = {
             id: 'origins',
             title: 'Origins',
             image: 'https://jimmynelsonfoundation.com/wp-content/uploads/2019/04/jimmy-nelson-foundation-hadzabe-tanzania-gallery-mike-holtby-6-groter.jpg',
-            description: 'Research based on blood samples and DNA comparisons of people all over the world indicate that we Hadzabe are on of the original peoples.',
+            description: "Research based on blood samples and DNA comparisons of people all over the world indicate that we Hadzabe are on of the original peoples. We have probably lived in the Eyasi Basin and surrounding areas for at least 100,000 years, if not more. Our more recent origin story relates that the Isanzu Chief Kintentemi long ago invited the Hadzabe to a big feast. At that feast many Hadzabe were poisoned. The survivors moved to the East - ANAU; to the west - DILODABEE; and to the North - SANZATABEE. These three main groups of recent origin gave rise to all the geographic subgroups of Hadzabe found today - the Siponganebee, Dunduinebee, Tl'iikanabee, Mwasimwasikanebee & Mangolanebee.",
+            location: {
+                center: [34.69620,  -3.67432],
+                zoom: 9.26,
+                pitch: 46.50,
+                bearing: 0
+            },
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'origins2',
+            title: '',
+            image: '',
+            description: 'After this peopling of the Hadzabe, there was a very difficult Isanzu famine. In order to survive, many Isanzu moved to live with the Hadzabe and benefit from the bush foods which are not affected by drought like the planted foods are. This movement led to intermarriage and also to the historically incorrect story that the Hadza originated from Ukerewe to the West, which is where the Isanzu but not the Hadza came from.',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
@@ -114,8 +132,8 @@ var config = {
         {
             id: 'land-of-the-hadzabe',
             title: 'Land of the Hadza',
-            image: 'https://jimmynelsonfoundation.com/wp-content/uploads/2019/04/jimmy-nelson-foundation-hadzabe-tanzania-gallery-mike-holtby-6-groter.jpg',
-            description: 'Research based on blood samples and DNA comparisons of people all over the world indicate that we Hadzabe are on of the original peoples.',
+            image: '',
+            description: '',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
