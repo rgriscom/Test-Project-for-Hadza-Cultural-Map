@@ -6,7 +6,7 @@ var config = {
     theme: 'dark',
     title: 'Original People',
     subtitle: 'Land, Culture, History & Destiny <a href="https://en.wikipedia.org/wiki/Hadza_people">Hadzabe community</a>',
-    byline: '<a href="https://en.wikipedia.org/wiki/Hadza_people">Hadzabe community</a>',
+    byline: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
