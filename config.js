@@ -7,7 +7,7 @@ var config = {
     title: '<center>Original People</center>',
     subtitle: '<center>Land, Culture, History & Destiny</center>',
     byline: '<center><i>An interactive story</i></center>',
-    footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
+    footer: '<a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">Click here to view all of areas of cultural significane to the Hadza </a>',
     chapters: [
         {
             id: 'tanzania',
