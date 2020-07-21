@@ -16,7 +16,7 @@ var config = {
             description: 'The Hadzabe community of the Yaida Valley requested UCRT to assist them to undertake a cultural mapping exercise. More than 200 Hadzabe, yound and old, participated in this exercise...',
             location: {
                 center: [35.21924, -3.73574],
-                zoom: 10.25,
+                zoom: 9.35,
                 pitch: 47.00,
                 bearing: -35.20
             },
