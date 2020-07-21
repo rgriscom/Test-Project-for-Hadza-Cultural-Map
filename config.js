@@ -4,9 +4,9 @@ var config = {
     showMarkers: false,
     alignment: 'left',
     theme: 'dark',
-    title: 'Original People',
-    subtitle: 'Land, Culture, History & Destiny <a href="https://en.wikipedia.org/wiki/Hadza_people">Hadzabe community</a>',
-    byline: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
+    title: '<img src="https://www.dropbox.com/s/9n6tfez1bm8scnc/front_cover.png?raw=1</a>',
+    subtitle: 'Land, Culture, History & Destinyy',
+    byline: '',
     footer: 'Source: Story text from Wikipedia, August 2019. Data from <a href="https://www.usgs.gov/centers/norock/science/retreat-glaciers-glacier-national-park">USGS</a>',
     chapters: [
         {
