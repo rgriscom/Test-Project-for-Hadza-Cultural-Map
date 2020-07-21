@@ -38,8 +38,14 @@ var config = {
                 pitch: 4.00,
                 bearing: 0
             },
-            onChapterEnter: [],
-            onChapterExit: [
+            onChapterEnter: [{
+                    layer: 'country-label',
+                    opacity: 1
+                }],
+            onChapterExit: [{
+                    layer: 'country-label',
+                    opacity: 0
+                }
                 
             ]
         },
