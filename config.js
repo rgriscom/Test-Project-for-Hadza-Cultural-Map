@@ -131,9 +131,9 @@ var config = {
         },
         {
             id: 'land-of-the-hadzabe',
-            title: 'Land of the Hadza',
+            title: '',
             image: '',
-            description: '',
+            description: 'Land occupied by the Hadza 50 years ago (red)',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
@@ -157,39 +157,7 @@ var config = {
             id: 'land-of-the-hadzabe2',
             title: '',
             image: '',
-            description: '',
-            location: {
-                center: [34.69620,  -3.67432],
-                zoom: 9.26,
-                pitch: 46.50,
-                bearing: 0
-            },
-            onChapterEnter: [
-                {
-                    layer: 'hadza-area-50-years-ago',
-                    opacity: 0.3
-                },
-                {
-                    layer: 'hadza-area-today',
-                    opacity: 0.3
-                }
-            ],
-            onChapterExit: [
-               {
-                    layer: 'hadza-area-50-years-ago',
-                    opacity: 0
-                },
-                {
-                    layer: 'hadza-area-today',
-                    opacity: 0
-                }
-            ]
-        },
-        {
-            id: 'land-of-the-hadzabe2',
-            title: '',
-            image: '',
-            description: '',
+            description: '<p>Land occupied by the Hadza 50 years ago (red)</p><p>Land the Hadza have rights to today (green)</p>',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
@@ -221,7 +189,7 @@ var config = {
             id: 'land-of-the-hadzabe3',
             title: '',
             image: '',
-            description: '',
+            description: 'Sites of cultural significance (blue)',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
