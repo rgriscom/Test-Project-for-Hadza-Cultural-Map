@@ -33,9 +33,9 @@ var config = {
             image: 'https://ssl.c.photoshelter.com/img-get/I0000b6HRoGzjkwY/s/850/Evolution-of-Diet-010.jpg',
             description: 'We Hadzabe have no record of famine in our oral history. The reason is that we depend on natural producs of the environment...',
             location: {
-                center: [27.90145, -5.75361],
-                zoom: 4.84,
-                pitch: 4.00,
+                center: [31.47641, -6.90268],
+                zoom: 5.4,
+                pitch: 17.00,
                 bearing: 0
             },
             onChapterEnter: [{
