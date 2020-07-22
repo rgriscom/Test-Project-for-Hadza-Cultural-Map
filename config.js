@@ -57,33 +57,9 @@ var config = {
             id: 'land-culture-history2',
             title: '',
             image: 'https://www.dropbox.com/s/up0kju55n0y758n/bar_photos1.png?raw=1',
-            description: "<p>But, because we move in search of seasonal food and other necessary natural products such as arrow poison, special stones for sharpening tools and for our smoking pipes, it has been easy for neighboring people to move into and take our land. We also are a peaceful people who do not like confrontation so that rather than fight people who invade we have always moved away. Also, because we do not plant crops or herd livestock, most people including government leaders, consider our lands to be empty and unused. They don't understand how we use and depend on the land and a healthy environment. The result is that we have lost 90% of our land within the last 50 years. And the land that has been lost to others is seriously degraded environmentally - it is very sick. </p><p><img src='https://www.dropbox.com/s/hs6eznpzxyy6kwa/bar_photos2.png?raw=1'></p>",
+            description: "<p>But, because we move in search of seasonal food and other necessary natural products such as arrow poison, special stones for sharpening tools and for our smoking pipes, it has been easy for neighboring people to move into and take our land. We also are a peaceful people who do not like confrontation so that rather than fight people who invade we have always moved away. Also, because we do not plant crops or herd livestock, most people including government leaders, consider our lands to be empty and unused. They don't understand how we use and depend on the land and a healthy environment. The result is that we have lost 90% of our land within the last 50 years. And the land that has been lost to others is seriously degraded environmentally - it is very sick. </p><p><img src='https://www.dropbox.com/s/hs6eznpzxyy6kwa/bar_photos2.png?raw=1'></p><p> Not only do we depend on the land and a healthy environment for our daily needs, loss of land also deprives us of our cultural identity and the means to move with dignity into the future world. Our right to modern education and health care must be based on a foundation of land and a healthy environment. We hope that this booklet helps others to understand and respect our need for and deep connection with the land and to support us in our quest for land & natural resource rights.</p>",
             alignment: 'center',
             opacity: 'full',
-            location: {
-                center: [31.47641, -6.90268],
-                zoom: 5.4,
-                pitch: 17.00,
-                bearing: 0
-            },
-            onChapterEnter: [{
-                    layer: 'country-label-copy',
-                    opacity: 1
-                }],
-            onChapterExit: [{
-                    layer: 'country-label-copy',
-                    opacity: 0
-                }
-                
-            ]
-        },
-        {
-            id: 'land-culture-history3',
-            title: '',
-            image: '',
-            description: "<p> Not only do we depend on the land and a healthy environment for our daily needs, loss of land also deprives us of our cultural identity and the means to move with dignity into the future world. Our right to modern education and health care must be based on a foundation of land and a healthy environment. We hope that this booklet helps others to understand and respect our need for and deep connection with the land and to support us in our quest for land & natural resource rights.</p>",
-            alignment: 'center',
-            opacity: 'normal',
             location: {
                 center: [31.47641, -6.90268],
                 zoom: 5.4,
