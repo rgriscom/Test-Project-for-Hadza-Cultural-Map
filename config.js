@@ -98,26 +98,6 @@ var config = {
             ]
         },
         {
-            id: 'origins2',
-            title: '',
-            image: '',
-            description: '',
-            alignment: 'center',
-            opacity: 'normal',
-            location: {
-                center: [34.69620,  -3.67432],
-                zoom: 9.26,
-                pitch: 46.50,
-                bearing: 0
-            },
-            onChapterEnter: [
-                
-            ],
-            onChapterExit: [
-                
-            ]
-        },
-        {
             id: 'land-of-the-hadzabe',
             title: 'The Land of the Hadzabe',
             image: '',
