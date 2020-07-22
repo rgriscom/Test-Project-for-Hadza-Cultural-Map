@@ -274,7 +274,7 @@ map.on("load", function() {
         if (chapter.opacity == 'full') {
             response.element.classList.remove('full_active');
         }
-        response.element.classList.remove('full_active');
+        
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
