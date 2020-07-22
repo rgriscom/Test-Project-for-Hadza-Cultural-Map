@@ -54,8 +54,8 @@ var config = {
         {
             id: 'land-culture-history2',
             title: '',
-            image: '',
-            description: "<p><img scr='https://www.dropbox.com/s/up0kju55n0y758n/bar_photos1.png?raw=1'></p><p>But, because we move in search of seasonal food and other necessary natural products such as arrow poison, special stones for sharpening tools and for our smoking pipes, it has been easy for neighboring people to move into and take our land. We also are a peaceful people who do not like confrontation so that rather than fight people who invade we have always moved away. Also, because we do not plant crops or herd livestock, most people including government leaders, consider our lands to be empty and unused. They don't understand how we use and depend on the land and a healthy environment. The result is that we have lost 90% of our land within the last 50 years. And the land that has been lost to others is seriously degraded environmentally - it is very sick. </p><p><img src='https://www.dropbox.com/s/hs6eznpzxyy6kwa/bar_photos2.png?raw=1'></p>",
+            image: 'https://www.dropbox.com/s/up0kju55n0y758n/bar_photos1.png?raw=1',
+            description: "<p>But, because we move in search of seasonal food and other necessary natural products such as arrow poison, special stones for sharpening tools and for our smoking pipes, it has been easy for neighboring people to move into and take our land. We also are a peaceful people who do not like confrontation so that rather than fight people who invade we have always moved away. Also, because we do not plant crops or herd livestock, most people including government leaders, consider our lands to be empty and unused. They don't understand how we use and depend on the land and a healthy environment. The result is that we have lost 90% of our land within the last 50 years. And the land that has been lost to others is seriously degraded environmentally - it is very sick. </p><p><img src='https://www.dropbox.com/s/hs6eznpzxyy6kwa/bar_photos2.png?raw=1'></p>",
             alignment: 'center',
             location: {
                 center: [31.47641, -6.90268],
