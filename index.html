@@ -163,6 +163,12 @@ config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
     var chapter = document.createElement('div');
     
+    if (record.title === 'Land, Culture, History & Destiny') {
+        var title = document.createElement('h1');
+        title.innerText = record.title;
+        chapter.appendChild(title);
+    }
+    
     if (record.title) {
         var title = document.createElement('h3');
         title.innerText = record.title;
