@@ -216,7 +216,7 @@ var config = {
                     opacity: 0
                 }
             ]
-        }
+        },
         {
             id: 'land-of-the-hadzabe4',
             title: '',
