@@ -252,7 +252,12 @@ map.on("load", function() {
     })
     .onStepEnter(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
-        response.element.classList.add('full_active');
+        if (chapter.opacity == 'normal') {
+            response.element.classList.add('active');
+        }
+        if (chapter.opacity == 'full') {
+            response.element.classList.add('full_active');
+        }
         map.flyTo(chapter.location);
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
@@ -263,6 +268,12 @@ map.on("load", function() {
     })
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
+        if (chapter.opacity == 'normal') {
+            response.element.classList.remove('active');
+        }
+        if (chapter.opacity == 'full') {
+            response.element.classList.remove('full_active');
+        }
         response.element.classList.remove('full_active');
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
