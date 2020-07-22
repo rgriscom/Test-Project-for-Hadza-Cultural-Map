@@ -76,6 +76,9 @@
         .step.active {
             opacity: 0.9;
         }
+        .step.full_active {
+            opacity: 1;
+        }
 
         .step div {
             padding:  25px 50px;
@@ -163,12 +166,6 @@ config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
     var chapter = document.createElement('div');
     
-    if (record.title === 'Land, Culture, History & Destiny') {
-        var title = document.createElement('h1');
-        title.innerText = record.title;
-        chapter.appendChild(title);
-    }
-    
     if (record.title) {
         var title = document.createElement('h3');
         title.innerText = record.title;
@@ -255,7 +252,7 @@ map.on("load", function() {
     })
     .onStepEnter(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
-        response.element.classList.add('active');
+        response.element.classList.add('full_active');
         map.flyTo(chapter.location);
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
@@ -266,7 +263,7 @@ map.on("load", function() {
     })
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
-        response.element.classList.remove('active');
+        response.element.classList.remove('full_active');
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
