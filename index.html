@@ -130,7 +130,7 @@ function setLayerOpacity(layer) {
 
 var story = document.getElementById('story');
 var features = document.createElement('div');
-features.classList.add(alignments[config.alignment]);
+//features.classList.add(alignments[config.alignment]);
 features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
@@ -194,6 +194,8 @@ config.chapters.forEach((record, idx) => {
     }
 
     chapter.classList.add(config.theme);
+    //Pulls out the alignment setting from each chapter:
+    chapter.classList.add(alignments[record.alignment]);    
     container.appendChild(chapter);
     features.appendChild(container);
 });
