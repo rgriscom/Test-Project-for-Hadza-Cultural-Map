@@ -217,7 +217,7 @@ var config = {
                     opacity: 0
                 }
             ]
-        }
+        },
         {
             id: 'rock-paintings',
             title: 'Rock Paintings',
@@ -244,7 +244,7 @@ var config = {
                     opacity: 0
                 }
             ]
-        }
+        },
         {
             id: 'video',
             title: 'Video test',
