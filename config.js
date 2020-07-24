@@ -249,7 +249,7 @@ var config = {
             id: 'video',
             title: 'Video test',
             image: '',
-            description: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MNi7ItWKjhw" frameborder="0" allow="accelerometer; autoplay="1"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MNi7ItWKjhw?autoplay=1" frameborder="0" allow="accelerometer; autoplay="1"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             alignment: 'left',
             opacity: 'normal',
             location: {
