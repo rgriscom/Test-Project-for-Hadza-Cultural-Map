@@ -200,7 +200,7 @@ var config = {
             opacity: 'normal',
             location: {
                 center: [35.166062,  -3.990548],
-                zoom: 11,
+                zoom: 13,
                 pitch: 0,
                 bearing: 0
             },
