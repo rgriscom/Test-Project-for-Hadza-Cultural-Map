@@ -190,7 +190,7 @@ var config = {
                     opacity: 0
                 }
             ]
-        }
+        },
         {
             id: 'chanjaiko',
             title: 'Chanjaiko',
