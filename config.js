@@ -218,6 +218,33 @@ var config = {
                 }
             ]
         }
+        {
+            id: 'video',
+            title: 'Video text',
+            image: '',
+            description: "<iframe width="560" height="315" src="https://www.youtube.com/embed/MNi7ItWKjhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>",
+            alignment: 'left',
+            opacity: 'normal',
+            location: {
+                center: [35.146062,  -3.990548],
+                zoom: 13,
+                pitch: 0,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 0
+                }
+            ]
+        }
        
 
     ]
