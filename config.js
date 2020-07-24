@@ -219,6 +219,33 @@ var config = {
             ]
         }
         {
+            id: 'rock-paintings',
+            title: 'Rock Paintings',
+            image: 'https://www.dropbox.com/s/d4s35pkq2r5tih8/2-.png?raw=1',
+            description: "Gudandi, Siagi's mother and elders Shush & Shella used to live in this area now taken over by the Iraqw.",
+            alignment: 'left',
+            opacity: 'normal',
+            location: {
+                center: [35.364933,  -3.808903],
+                zoom: 13,
+                pitch: 0,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 0
+                }
+            ]
+        }
+        {
             id: 'video',
             title: 'Video text',
             image: '',
