@@ -195,7 +195,7 @@ var config = {
             id: 'chanjaiko',
             title: 'Chanjaiko',
             image: '<img src="https://www.dropbox.com/s/zbfoobgj5a3fbp3/chanjaiko.png?raw=1">',
-            description: 'After he was married but before independence (1950s) Mzee Bode and Maroba's grandfather lived at Mambutu for many months. At that time there were no people, the areas was full of wildlife and the ikanawangupee kenebee paintings of those early people who stood like giraffe were clearly visible',
+            description: "After he was married but before independence (1950s) Mzee Bode and Maroba's grandfather lived at Mambutu for many months. At that time there were no people, the areas was full of wildlife and the ikanawangupee kenebee paintings of those early people who stood like giraffe were clearly visible",
             alignment: 'left',
             opacity: 'normal',
             location: {
