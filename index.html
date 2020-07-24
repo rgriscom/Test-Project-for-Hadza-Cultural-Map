@@ -279,6 +279,24 @@ map.on("load", function() {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
     });
+    map.on('mouseenter','hadza-cultural-map', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['hadza-cultural-map'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p>' + '<p>' + feature.properties.image + '</p>')
+    .addTo(map);
+  map.on('mouseleave', 'hadza-cultural-map', function() {
+    popup.remove();
+  });
 });
 
 // setup resize event
