@@ -247,7 +247,7 @@ var config = {
         }
         {
             id: 'video',
-            title: 'Video text',
+            title: 'Video test',
             image: '',
             description: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MNi7ItWKjhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             alignment: 'left',
