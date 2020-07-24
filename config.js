@@ -253,8 +253,8 @@ var config = {
             alignment: 'left',
             opacity: 'normal',
             location: {
-                center: [35.146062,  -3.990548],
-                zoom: 13,
+                center: [34.69620,  -3.67432],
+                zoom: 9,
                 pitch: 0,
                 bearing: 0
             },
