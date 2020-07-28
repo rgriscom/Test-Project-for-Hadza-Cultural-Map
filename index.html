@@ -63,6 +63,7 @@
             color: #f1f1f1;
             width: 100%;
             padding: 20px;
+            visibility: hidden;
         }
         .centered {
             width: 91.8vw;
@@ -277,8 +278,10 @@ map.on("load", function() {
         }
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
+            var overlay = document.getElementsByClassName("content");
             video.play();
             video.style.visibility = 'visible';
+            overlay.style.visibility = 'visible';
         }
         map.flyTo(chapter.location);
         if (config.showMarkers) {
@@ -298,8 +301,10 @@ map.on("load", function() {
         }
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
+            var overlay = document.getElementsByClassName("content");
             video.pause();
             video.style.visibility = 'hidden';
+            overlay.style.visibility = 'hidden';
         }
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
