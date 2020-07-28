@@ -281,6 +281,34 @@ var config = {
                     opacity: 0
                 }
             ]
+        },
+        {
+            id: 'video2',
+            title: 'After the video',
+            image: '',
+            description: 'How was it?',
+            alignment: 'center',
+            opacity: 'full',
+            video: 'yes',
+            location: {
+                center: [34.69620,  -3.67432],
+                zoom: 9,
+                pitch: 0,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 0
+                }
+            ]
         }
        
 
