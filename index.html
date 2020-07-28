@@ -270,7 +270,7 @@ map.on("load", function() {
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
             video.play();
-            video.visibility = 'visible';
+            video.style.visibility = 'visible';
         }
         map.flyTo(chapter.location);
         if (config.showMarkers) {
@@ -291,7 +291,7 @@ map.on("load", function() {
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
             video.pause();
-            video.visibility = 'hidden';
+            video.style.visibility = 'hidden';
         }
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
