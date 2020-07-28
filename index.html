@@ -100,6 +100,9 @@
         .step.full_active {
             opacity: 1;
         }
+        .step.hidden_step {
+            opacity: 0;
+        }
         
         .step div {
             padding:  25px 50px;
@@ -214,7 +217,7 @@ config.chapters.forEach((record, idx) => {
     chapter.classList.add(config.theme);
     //Pulls out the alignment setting from each chapter:
     if (record.opacity == 'hidden') {
-        chapter.classList.add('hidden_step');
+        chapter.style.opacity = 0;
     }
     chapter.classList.add(alignments[record.alignment]);    
     container.appendChild(chapter);
