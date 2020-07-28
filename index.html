@@ -91,9 +91,6 @@
             /* margin-bottom: 10vh; */
             opacity: 0.25;
         }
-        .hidden_step {
-            opacity: 0;
-        }
         .step.active {
             opacity: 0.9;
         }
@@ -213,7 +210,6 @@ config.chapters.forEach((record, idx) => {
         container.classList.add('active');
     }
     container.classList.add('step');
-    //Make normal chapters slightly visible and video chapters invisible
     chapter.classList.add(config.theme);
     //Pulls out the alignment setting from each chapter:
     chapter.classList.add(alignments[record.alignment]);    
