@@ -7,7 +7,7 @@ var config = {
     title: '<center>Original People</center>',
     subtitle: '<center>Land, Culture, History & Destiny</center>',
     byline: '<center><i>An interactive story</i></center>',
-    footer: '<a href="https://rgriscom.github.io/Test-Project-for-Hadza-Cultural-Map-2/">Click here to view all of areas of cultural significane to the Hadza </a>',
+    footer: '<a href="https://rgriscom.github.io/Test-Project-for-Hadza-Cultural-Map-2/">Click here to view all of areas of cultural significance to the Hadza </a>',
     chapters: [
         {
             id: 'tanzania',
