@@ -259,8 +259,8 @@ var config = {
             title: 'Video test',
             image: '',
             description: '<video loop id="myVideo"><source src="https://uce9685cf17b4a55054851313020.dl.dropboxusercontent.com/cd/0/inline/A8Z7s8MbcDfeNB_wbdqCHhrY-qdGggQU7OqGDzq6nKRlVinY7pXxfwUtz1SUuBG2MUYMYuhhNis3a4uyjin32hBw8-RIDSfBvdD7AD0qN6Xvj11CvWaaiysQCEGWHbJBYsk/file#" type="video/mp4"></video>',
-            alignment: 'left',
-            opacity: 'normal',
+            alignment: 'center',
+            opacity: 'full',
             video: 'yes',
             location: {
                 center: [34.69620,  -3.67432],
