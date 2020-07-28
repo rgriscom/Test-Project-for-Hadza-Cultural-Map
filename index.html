@@ -56,7 +56,7 @@
             min-height: 100%;
             visibility: hidden;
             }
-        .content {
+        #myContent {
             position: fixed;
             bottom: 0;
             background: rgba(0, 0, 0, 0.5);
@@ -278,7 +278,7 @@ map.on("load", function() {
         }
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
-            var overlay = document.getElementsByClassName("content");
+            var overlay = document.getElementById("myContent");
             video.play();
             video.style.visibility = 'visible';
             overlay.style.visibility = 'visible';
@@ -301,7 +301,7 @@ map.on("load", function() {
         }
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
-            var overlay = document.getElementsByClassName("content");
+            var overlay = document.getElementById("myContent");
             video.pause();
             video.style.visibility = 'hidden';
             overlay.style.visibility = 'hidden';
