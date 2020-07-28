@@ -292,6 +292,8 @@ map.on("load", function() {
             var video = document.getElementById("myVideo");
             var overlay = document.getElementById("myContent");
             video.play();
+            video.style.opacity = 1;
+            overlay.style.opacity = 1;
             video.style.visibility = 'visible';
             overlay.style.visibility = 'visible';
         }
