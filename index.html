@@ -278,9 +278,7 @@ map.on("load", function() {
         if (chapter.opacity == 'full') {
             response.element.classList.add('full_active');
         }
-        if (chapter.opacity == 'hidden') {
-            response.element.classList.add('hidden_active');
-        }
+        
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
             var overlay = document.getElementById("myContent");
@@ -304,9 +302,7 @@ map.on("load", function() {
         if (chapter.opacity == 'full') {
             response.element.classList.remove('full_active');
         }
-        if (chapter.opacity == 'hidden') {
-            response.element.classList.remove('hidden_active');
-        }
+       
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
             var overlay = document.getElementById("myContent");
