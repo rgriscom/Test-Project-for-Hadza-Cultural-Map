@@ -217,7 +217,7 @@ config.chapters.forEach((record, idx) => {
     chapter.classList.add(config.theme);
     
     if (record.opacity == 'hidden') {
-        chapter.style.opacity = 0.25;
+        chapter.style.opacity = 0;
     }
     //Pulls out the alignment setting from each chapter:
     chapter.classList.add(alignments[record.alignment]);    
