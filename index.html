@@ -286,7 +286,7 @@ map.on("load", function() {
             response.element.classList.add('full_active');
         }
         if (chapter.opacity == 'hidden') {
-            response.element.classList.add('full_active');
+            response.element.opacity = 1;
         }
         
         if (chapter.video == 'yes') {
@@ -315,7 +315,7 @@ map.on("load", function() {
             response.element.classList.remove('full_active');
         }
         if (chapter.opacity == 'hidden') {
-            response.element.classList.remove('full_active');
+            response.element.opacity = 0;
         }
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
