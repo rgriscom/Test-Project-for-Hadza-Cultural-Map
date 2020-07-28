@@ -214,9 +214,6 @@ config.chapters.forEach((record, idx) => {
     }
     container.classList.add('step');
     //Make normal chapters slightly visible and video chapters invisible
-    if (config.video == 'yes') {
-        container.classList.add('hidden_step');
-    }
     chapter.classList.add(config.theme);
     //Pulls out the alignment setting from each chapter:
     chapter.classList.add(alignments[record.alignment]);    
@@ -292,8 +289,6 @@ map.on("load", function() {
             var video = document.getElementById("myVideo");
             var overlay = document.getElementById("myContent");
             video.play();
-            video.style.opacity = 1;
-            overlay.style.opacity = 1;
             video.style.visibility = 'visible';
             overlay.style.visibility = 'visible';
         }
