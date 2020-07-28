@@ -258,7 +258,7 @@ var config = {
             id: 'video',
             title: 'Video test',
             image: '',
-            description: '<video autoplay loop id="myVideo"><source src="https://uce9685cf17b4a55054851313020.dl.dropboxusercontent.com/cd/0/inline/A8Z7s8MbcDfeNB_wbdqCHhrY-qdGggQU7OqGDzq6nKRlVinY7pXxfwUtz1SUuBG2MUYMYuhhNis3a4uyjin32hBw8-RIDSfBvdD7AD0qN6Xvj11CvWaaiysQCEGWHbJBYsk/file#" type="video/mp4"></video><div class="content"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
+            description: '<video autoplay loop id="myVideo"><source src="https://uce9685cf17b4a55054851313020.dl.dropboxusercontent.com/cd/0/inline/A8Z7s8MbcDfeNB_wbdqCHhrY-qdGggQU7OqGDzq6nKRlVinY7pXxfwUtz1SUuBG2MUYMYuhhNis3a4uyjin32hBw8-RIDSfBvdD7AD0qN6Xvj11CvWaaiysQCEGWHbJBYsk/file#" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
             alignment: 'center',
             opacity: 'full',
             video: 'yes',
