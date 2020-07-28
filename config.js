@@ -5,7 +5,7 @@ var config = {
     alignment: 'left',
     theme: 'light',
     title: '<center>Original People</center>',
-    subtitle: '<center>2Land, Culture, History & Destiny</center>',
+    subtitle: '<center>Land, Culture, History & Destiny</center>',
     byline: '<center><i>An interactive story</i></center>',
     footer: '<a href="https://rgriscom.github.io/Test-Project-for-Hadza-Cultural-Map-2/">Click here to view all of areas of cultural significance to the Hadza </a>',
     chapters: [
