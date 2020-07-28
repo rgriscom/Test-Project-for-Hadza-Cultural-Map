@@ -86,6 +86,9 @@
             color: #fafafa;
             background-color: #000000;
         }
+        .hidden_step {
+            opacity: 0;
+        }
         .step {
             padding-bottom: 50vh;
             /* margin-bottom: 10vh; */
@@ -97,9 +100,7 @@
         .step.full_active {
             opacity: 1;
         }
-        .step.hidden_active {
-            opacity: 0;
-        }
+        
         .step div {
             padding:  25px 50px;
             line-height: 25px;
@@ -212,6 +213,9 @@ config.chapters.forEach((record, idx) => {
     container.classList.add('step');
     chapter.classList.add(config.theme);
     //Pulls out the alignment setting from each chapter:
+    if (record.opacity == 'hidden') {
+        chapter.classList.add('hidden_step');
+    }
     chapter.classList.add(alignments[record.alignment]);    
     container.appendChild(chapter);
     features.appendChild(container);
@@ -278,9 +282,7 @@ map.on("load", function() {
         if (chapter.opacity == 'full') {
             response.element.classList.add('full_active');
         }
-        if (chapter.opacity == 'hidden') {
-            response.element.classList.add('full_active');
-        }
+        
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
             var overlay = document.getElementById("myContent");
@@ -306,9 +308,7 @@ map.on("load", function() {
         if (chapter.opacity == 'full') {
             response.element.classList.remove('full_active');
         }
-        if (chapter.opacity == 'hidden') {
-            response.element.classList.remove('full_active');
-        }
+        
         if (chapter.video == 'yes') {
             var video = document.getElementById("myVideo");
             var overlay = document.getElementById("myContent");
