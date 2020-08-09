@@ -203,7 +203,9 @@ if (header.innerText.length > 0) {
 }
 
 function switch_language() {
-   
+  var titleText = document.createElement('h1');
+  titleText.innerHTML = config.title_sw;
+  header.appendChild(titleText);
   var c = document.body.children;
   var txt = "";
   var i;
