@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>Hadza Cultural Map</title>
+    <title>1Hadza Cultural Map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
@@ -56,6 +56,12 @@
             min-height: 100%;
             visibility: hidden;
             }
+        #english-title {
+            visibility: visible;
+        }
+        #swahili-title {
+            visibility: hidden;
+        }
         #myContent {
             position: fixed;
             bottom: 0;
@@ -160,13 +166,6 @@ function setLayerOpacity(layer) {
     });
 }
     
-function switch_language() {
-    alert("I definitely am an alert box!");
-    var swahili = document.getElementsByClassName("swahili");
-    var english = document.getElementsByClassName("english");
-    swahili.style.visibility = 'hidden';
-    english.style.visibility = 'visible';
-}
 
 var story = document.getElementById('story');
 var features = document.createElement('div');
@@ -199,6 +198,12 @@ if (header.innerText.length > 0) {
     story.appendChild(header);
 }
 
+function switch_language() {
+   alert("I definitely am an alert box!");
+   document.getElementById("swahili-title").style.visibility = "visible";
+   document.getElementById("english-title").style.visibility = "visible";
+}
+    
 config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
     var chapter = document.createElement('div');
