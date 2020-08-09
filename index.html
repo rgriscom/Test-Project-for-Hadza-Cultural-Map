@@ -202,10 +202,11 @@ if (header.innerText.length > 0) {
     story.appendChild(header);
 }
 
-var language = 0;
+var lang = 0;
     
 function switch_language() {
-  if (language == 0)    {
+  alert("Test...")
+  if (lang == 0)    {
     header.innerHTML = "";
     var titleText = document.createElement('h1');
     var subtitleText = document.createElement('h2');
@@ -216,9 +217,9 @@ function switch_language() {
     header.appendChild(titleText);
     header.appendChild(subtitleText);
     header.appendChild(bylineText);
-    language = 1;
+    lang = 1;
   }
-  if (language == 1)    {
+  if (lang == 1) {
     header.innerHTML = "";
     var titleText = document.createElement('h1');
     var subtitleText = document.createElement('h2');
@@ -229,9 +230,8 @@ function switch_language() {
     header.appendChild(titleText);
     header.appendChild(subtitleText);
     header.appendChild(bylineText);
-    language = 1;
+    lang = 0;
   }
-  
 }
     
 config.chapters.forEach((record, idx) => {
