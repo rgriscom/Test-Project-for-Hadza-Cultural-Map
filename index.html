@@ -203,15 +203,15 @@ if (header.innerText.length > 0) {
 }
 
 function switch_language() {
-   document.getElementsByClassName("swahili").style.visibility = "visible";
-   document.getElementsByClassName("swahili").innerHTML = "New text!";
-   document.getElementsByClassName("swahili").style.opacity = "1";
-   document.getElementsByClassName("swahili").style.color = "blue";
-   document.getElementsByClassName("english").style.visibility = "hidden";
-   document.getElementsByClassName("english").style.color = "red";
-   document.getElementsByClassName("english").style.opacity = "0.5";
-   document.getElementsByClassName("english").innerHTML = "New text!";
-   document.getElementById('test_image').style.visibility= "hidden";
+   
+  var c = document.body.children;
+  var txt = "";
+  var i;
+  for (i = 0; i < c.length; i++) {
+    txt = txt + c[i].tagName + "<br>";
+  }
+  alert(txt);
+  
 }
     
 config.chapters.forEach((record, idx) => {
