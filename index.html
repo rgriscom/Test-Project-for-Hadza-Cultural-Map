@@ -203,14 +203,14 @@ if (header.innerText.length > 0) {
 }
 
 function switch_language() {
-   document.getElementById("swahili_title").style.visibility = "visible";
-    document.getElementById("english_title").innerHTML = "New text!";
-   document.getElementById("swahili_title").style.opacity = "1";
-   document.getElementById("swahili_title").style.color = "blue";
-   document.getElementById("english_title").style.visibility = "hidden";
-   document.getElementById("english_title").style.color = "red";
-   document.getElementById("english_title").style.opacity = "0.5";
-   document.getElementById("english_title").innerHTML = "New text!";
+   document.getElementsByClassName("swahili").style.visibility = "visible";
+   document.getElementsByClassName("swahili").innerHTML = "New text!";
+   document.getElementsByClassName("swahili").style.opacity = "1";
+   document.getElementsByClassName("swahili").style.color = "blue";
+   document.getElementsByClassName("english").style.visibility = "hidden";
+   document.getElementsByClassName("english").style.color = "red";
+   document.getElementsByClassName("english").style.opacity = "0.5";
+   document.getElementsByClassName("english").innerHTML = "New text!";
 }
     
 config.chapters.forEach((record, idx) => {
