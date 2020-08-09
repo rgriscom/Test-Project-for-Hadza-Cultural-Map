@@ -205,10 +205,9 @@ if (header.innerText.length > 0) {
 var lang = 0;
 //Change the language of the title    
 function switch_language() {
-  alert("Test...");
   if (lang == 0)    {
     alert('Eng -> swah');
-    //header.innerHTML = "";
+    header.removeChild(header.childNodes[0])
     var titleText = document.createElement('h1');
     var subtitleText = document.createElement('h2');
     var bylineText = document.createElement('p');
