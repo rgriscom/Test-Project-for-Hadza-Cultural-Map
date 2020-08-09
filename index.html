@@ -216,6 +216,20 @@ function switch_language() {
     header.appendChild(titleText);
     header.appendChild(subtitleText);
     header.appendChild(bylineText);
+    language = 1;
+  }
+  if (language == 1)    {
+    header.innerHTML = "";
+    var titleText = document.createElement('h1');
+    var subtitleText = document.createElement('h2');
+    var bylineText = document.createElement('p');
+    titleText.innerHTML = config.title;
+    subtitleText.innerHTML = config.subtitle;
+    bylineText.innerHTML = config.byline;
+    header.appendChild(titleText);
+    header.appendChild(subtitleText);
+    header.appendChild(bylineText);
+    language = 1;
   }
   
 }
