@@ -5,6 +5,7 @@ var config = {
     alignment: 'left',
     theme: 'light',
     title: '<center>Original People</center>',
+    title_sw: '<center>YES!</center>',
     subtitle: '<center>Land, Culture, History & Destiny</center>',
     byline: '<center><i>An interactive story</i></center><p><center><button onclick="switch_language()">Switch Language / Badilisha Lugha</button></center>',
     footer: '<a href="https://rgriscom.github.io/Test-Project-for-Hadza-Cultural-Map-2/">Click here to view all of areas of cultural significance to the Hadza </a>',
