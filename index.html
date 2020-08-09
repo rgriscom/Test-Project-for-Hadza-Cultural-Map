@@ -58,9 +58,11 @@
         }
         #english_title {
             visibility: visible;
+            opacity: 1;
         }
         #swahili_title {
             visibility: hidden;
+            opacity: 0;
         }
         #myContent {
             position: fixed;
@@ -200,9 +202,11 @@ if (header.innerText.length > 0) {
 
 function switch_language() {
    document.getElementById("swahili_title").style.visibility = "visible";
+   document.getElementById("swahili_title").style.opacity = "1";
    document.getElementById("swahili_title").style.color = "blue";
    document.getElementById("english_title").style.visibility = "hidden";
    document.getElementById("english_title").style.color = "red";
+   document.getElementById("english_title").style.opacity = "0.5";
 }
     
 config.chapters.forEach((record, idx) => {
