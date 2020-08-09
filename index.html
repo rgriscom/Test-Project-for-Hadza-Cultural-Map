@@ -208,6 +208,8 @@ function switch_language() {
   if (lang == 0)    {
     alert('Eng -> swah');
     header.removeChild(header.childNodes[0])
+    header.removeChild(header.childNodes[1])
+    header.removeChild(header.childNodes[2])
     var titleText = document.createElement('h1');
     var subtitleText = document.createElement('h2');
     var bylineText = document.createElement('p');
