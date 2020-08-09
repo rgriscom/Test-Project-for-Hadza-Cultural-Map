@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>1Hadza Cultural Map</title>
+    <title>Hadza Cultural Map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
@@ -55,7 +55,7 @@
             min-width: 100%; 
             min-height: 100%;
             visibility: hidden;
-            }
+        }
         #english_title {
             visibility: visible;
         }
@@ -201,7 +201,9 @@ if (header.innerText.length > 0) {
 function switch_language() {
    alert("I definitely am an alert box!");
    document.getElementById("swahili_title").style.visibility = "visible";
+   document.getElementById("swahili_title").style.color = "blue";
    document.getElementById("english_title").style.visibility = "hidden";
+   document.getElementById("english_title").style.color = "red";
 }
     
 config.chapters.forEach((record, idx) => {
