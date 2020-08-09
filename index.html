@@ -221,6 +221,7 @@ function switch_language() {
     header.appendChild(subtitleText);
     header.appendChild(bylineText);
     //features.childNodes[0].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
+    //Here I need to use a for loop to cycle through all of the chapters, and for each chapter pull out the title, image, and description and apply it to the same childnode
     features.childNodes[0].childNodes[0].appendChild(titleText2);
     lang = 1;
   } else {
