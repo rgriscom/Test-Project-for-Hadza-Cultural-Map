@@ -5,7 +5,7 @@ var config = {
     alignment: 'left',
     theme: 'light',
     title: '<center>Original People</center>',
-    title_sw: '<center>YES!</center>',
+    title_sw: '<center>Watu wa Kwanza</center>',
     subtitle: '<center>Land, Culture, History & Destiny</center>',
     subtitle_sw: '<center>Ardhi, Utamaduni, Historia, na ...</center>',
     byline: '<center><i>An interactive story</i></center><p><center><button onclick="switch_language()">Switch Language / Badilisha Lugha</button></center>',
