@@ -258,7 +258,7 @@ var config = {
             id: 'video',
             title: '',
             image: '',
-            description: '<video autoplay loop id="myVideo"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
+            description: '<video loop id="myVideo"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
             alignment: 'center',
             opacity: 'hidden',
             video: 'yes',
