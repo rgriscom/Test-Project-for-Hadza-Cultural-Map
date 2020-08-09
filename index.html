@@ -203,7 +203,7 @@ if (header.innerText.length > 0) {
 }
 
 var lang = 0;
-    
+//Change the language of the title    
 function switch_language() {
   alert("Test...");
   if (lang == 0)    {
@@ -218,7 +218,6 @@ function switch_language() {
     story.header.appendChild(titleText);
     story.header.appendChild(subtitleText);
     story.header.appendChild(bylineText);
-    lang = 1;
   }
   if (lang == 1) {
     //header.innerHTML = "";
@@ -232,7 +231,12 @@ function switch_language() {
     story.header.appendChild(titleText);
     story.header.appendChild(subtitleText);
     story.header.appendChild(bylineText);
-    lang = 0;
+  }
+  if (lang == 0){
+  lang = 1;
+  }
+  if (lang == 1){
+  lang = 0;
   }
 }
     
