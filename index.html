@@ -215,9 +215,9 @@ function switch_language() {
     titleText.innerHTML = config.title_sw;
     subtitleText.innerHTML = config.subtitle_sw;
     bylineText.innerHTML = config.byline_sw;
-    story.header.appendChild(titleText);
-    story.header.appendChild(subtitleText);
-    story.header.appendChild(bylineText);
+    header.appendChild(titleText);
+    header.appendChild(subtitleText);
+    header.appendChild(bylineText);
   }
   if (lang == 1) {
     //header.innerHTML = "";
@@ -228,15 +228,15 @@ function switch_language() {
     titleText.innerHTML = config.title;
     subtitleText.innerHTML = config.subtitle;
     bylineText.innerHTML = config.byline;
-    story.header.appendChild(titleText);
-    story.header.appendChild(subtitleText);
-    story.header.appendChild(bylineText);
+    header.appendChild(titleText);
+    header.appendChild(subtitleText);
+    header.appendChild(bylineText);
   }
-  if (lang == 0){
-  lang = 1;
+  if (lang == 0) {
+    lang = 1;
   }
-  if (lang == 1){
-  lang = 0;
+  if (lang == 1) {
+    lang = 0;
   }
 }
     
