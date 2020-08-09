@@ -34,7 +34,7 @@ var config = {
             id: 'land-culture-history',
             title: 'Land, Culture, History & Destiny',
             image: 'https://ssl.c.photoshelter.com/img-get/I0000b6HRoGzjkwY/s/850/Evolution-of-Diet-010.jpg',
-            description: "<p id='english_title'><center>Original People</center></p><p id='swahili_title'><center>Watu wa Kwanza</center></p><p>We Hadzabe have no record of famine in our oral history. The reason is that we depend on natural producs of the environment such as berries, tubers, baobab fruits, honey and many wild animals for food. By living in this way, the environment we depend on is not damaged and remains healthy.</p>",
+            description: "<p id='english_title'><center>Original People</center></p><p id='swahili_title'><center>Watu wa Kwanza</center></p><p>1We Hadzabe have no record of famine in our oral history. The reason is that we depend on natural producs of the environment such as berries, tubers, baobab fruits, honey and many wild animals for food. By living in this way, the environment we depend on is not damaged and remains healthy.</p>",
             alignment: 'left',
             opacity: 'normal',
             video: 'no',
