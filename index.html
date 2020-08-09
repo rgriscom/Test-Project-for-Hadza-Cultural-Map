@@ -219,8 +219,8 @@ function switch_language() {
     header.appendChild(titleText);
     header.appendChild(subtitleText);
     header.appendChild(bylineText);
-  }
-  if (lang == 1) {
+    lang = 1;
+  } else {
     //header.innerHTML = "";
     alert('Swah -> ENG');
     var titleText = document.createElement('h1');
@@ -232,11 +232,6 @@ function switch_language() {
     header.appendChild(titleText);
     header.appendChild(subtitleText);
     header.appendChild(bylineText);
-  }
-  if (lang == 0) {
-    lang = 1;
-  }
-  if (lang == 1) {
     lang = 0;
   }
 }
