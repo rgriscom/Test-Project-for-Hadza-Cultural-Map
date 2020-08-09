@@ -202,17 +202,21 @@ if (header.innerText.length > 0) {
     story.appendChild(header);
 }
 
+var language = 0;
+    
 function switch_language() {
-  var titleText = document.createElement('h1');
-  titleText.innerHTML = config.title_sw;
-  header.appendChild(titleText);
-  var c = document.story.children;
-  var txt = "";
-  var i;
-  for (i = 0; i < c.length; i++) {
-    txt = txt + c[i].tagName + "<br>";
+  if (language == 0)    {
+    header.innerHTML = "";
+    var titleText = document.createElement('h1');
+    var subtitleText = document.createElement('h2');
+    var bylineText = document.createElement('p');
+    titleText.innerHTML = config.title_sw;
+    subtitleText.innerHTML = config.subtitle_sw;
+    bylineText.innerHTML = config.byline_sw;
+    header.appendChild(titleText);
+    header.appendChild(subtitleText);
+    header.appendChild(bylineText);
   }
-  alert(txt);
   
 }
     
