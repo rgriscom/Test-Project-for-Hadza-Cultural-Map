@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>nok!Hadza Cultural Map</title>
+    <title>mnok!Hadza Cultural Map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
@@ -231,24 +231,23 @@ function switch_swahili() {
      
      alert(record.id);
      current_chap = document.getElementById(record.id);
-      alert('Element gotten');
+     alert('Element gotten');
      current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
-    if (record.title) {
-          current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
-      }
-     current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
-      if (record.image) {
-          current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
-      }
      if (record.title) {
-     current_chap.childNodes[0].appendChild(title);
+        current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
+     }
+     if (record.image) {
+        current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
+     }
+     if (record.title) {
+        current_chap.childNodes[0].appendChild(title);
      }
      if (record.image) {
         features.childNodes[chapter_counter].childNodes[0].appendChild(image);
      }
      current_chap.childNodes[0].appendChild(descr);
      chapter_counter = chapter_counter + 1;
-      alert(chapter_counter);
+     alert(chapter_counter);
      
     });
 }
