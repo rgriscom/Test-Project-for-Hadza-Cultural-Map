@@ -221,22 +221,22 @@ function switch_swahili() {
   //features.childNodes[0].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
   //Here I need to use a for loop to cycle through all of the chapters, and for each chapter pull out the title, image, and description and apply it to the same childnode
  // features.childNodes[0].childNodes[0].appendChild(titleText2);
-  var chapter_counter = 0;
-    config.chapters.forEach((record, idx) => {
-     var title = document.createElement('h3');
-     var image = new Image();  
-     var story = document.createElement('p');
-     title.innerText = record.title_sw;
-     image.src = record.image;
-     story.innerHTML = record.description_sw;
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
-     features.childNodes[chapter_counter].childNodes[0].appendChild(title);
-     features.childNodes[chapter_counter].childNodes[0].appendChild(image);
-     features.childNodes[chapter_counter].childNodes[0].appendChild(story);
-     chapter_counter = chapter_counter + 1;
-    }
+//  var chapter_counter = 0;
+//    config.chapters.forEach((record, idx) => {
+  //   var title = document.createElement('h3');
+//     var image = new Image();  
+//     var story = document.createElement('p');
+//     title.innerText = record.title_sw;
+//     image.src = record.image;
+//     story.innerHTML = record.description_sw;
+//     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
+//     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
+//     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
+//     features.childNodes[chapter_counter].childNodes[0].appendChild(title);
+//     features.childNodes[chapter_counter].childNodes[0].appendChild(image);
+//     features.childNodes[chapter_counter].childNodes[0].appendChild(story);
+//     chapter_counter = chapter_counter + 1;
+//    }
 }
  function switch_english() {
   header.removeChild(header.childNodes[0]);
@@ -256,22 +256,22 @@ function switch_swahili() {
   //features.childNodes[0].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
   //Here I need to use a for loop to cycle through all of the chapters, and for each chapter pull out the title, image, and description and apply it to the same childnode
   //features.childNodes[0].childNodes[0].appendChild(titleText2);
- var chapter_counter = 0;
- config.chapters.forEach((record, idx) => {
-     var title = document.createElement('h3');
-     var image = new Image();  
-     var story = document.createElement('p');
-     title.innerText = record.title;
-     image.src = record.image;
-     story.innerHTML = record.description;
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
-     features.childNodes[chapter_counter].childNodes[0].appendChild(title);
-     features.childNodes[chapter_counter].childNodes[0].appendChild(image);
-     features.childNodes[chapter_counter].childNodes[0].appendChild(story);
-     chapter_counter = chapter_counter + 1;
- }
+// var chapter_counter = 0;
+ //config.chapters.forEach((record, idx) => {
+//     var title = document.createElement('h3');
+//     var image = new Image();  
+//     var story = document.createElement('p');
+//     title.innerText = record.title;
+//     image.src = record.image;
+//     story.innerHTML = record.description;
+//     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
+//     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
+//     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[0].childNodes[0].childNodes[0]);
+//     features.childNodes[chapter_counter].childNodes[0].appendChild(title);
+//     features.childNodes[chapter_counter].childNodes[0].appendChild(image);
+//     features.childNodes[chapter_counter].childNodes[0].appendChild(story);
+//     chapter_counter = chapter_counter + 1;
+ //}
 }
     
 config.chapters.forEach((record, idx) => {
