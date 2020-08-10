@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>n!Hadza Cultural Map</title>
+    <title>n=w!Hadza Cultural Map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
@@ -219,6 +219,7 @@ function switch_swahili() {
   header.appendChild(subtitleText);
   header.appendChild(bylineText);
  //Switch the language of all of the chapters
+     alert('Hellowww');
   var chapter_counter = 0;
   config.chapters.forEach((record, idx) => {
      var title = document.createElement('h3');
@@ -227,6 +228,7 @@ function switch_swahili() {
      title.innerText = record.title_sw;
      image.src = record.image;
      descr.innerHTML = record.description_sw;
+       alert('Hellow');
      features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[chapter_counter].childNodes[0].childNodes[0]);
      features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[chapter_counter].childNodes[0].childNodes[0]);
      features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[chapter_counter].childNodes[0].childNodes[0]);
@@ -235,7 +237,7 @@ function switch_swahili() {
      features.childNodes[chapter_counter].childNodes[0].appendChild(descr);
      chapter_counter = chapter_counter + 1;
       alert(chapter_counter);
-      alert('Hellow');
+     
     });
 }
  function switch_english() {
