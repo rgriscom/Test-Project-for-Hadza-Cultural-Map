@@ -219,8 +219,6 @@ function switch_swahili() {
   header.appendChild(subtitleText);
   header.appendChild(bylineText);
  //Switch the language of all of the chapters
-     alert('Hellowww');
-  var chapter_counter = 0;
   config.chapters.forEach((record, idx) => {
      var title = document.createElement('h3');
      var image = new Image();  
@@ -244,9 +242,7 @@ function switch_swahili() {
         features.childNodes[chapter_counter].childNodes[0].appendChild(image);
      }
      current_chap.childNodes[0].appendChild(descr);
-     chapter_counter = chapter_counter + 1;
-
-     
+    
     });
 }
  function switch_english() {
@@ -266,7 +262,7 @@ function switch_swahili() {
   header.appendChild(bylineText);
 
 //Switch the language of all of the chapters
-  var chapter_counter = 1;
+
   config.chapters.forEach((record, idx) => {
      var title = document.createElement('h3');
      var image = new Image();  
@@ -289,7 +285,7 @@ function switch_swahili() {
         features.childNodes[chapter_counter].childNodes[0].appendChild(image);
      }
      current_chap.childNodes[0].appendChild(descr);
-     chapter_counter = chapter_counter + 1;
+
  });
 }
     
