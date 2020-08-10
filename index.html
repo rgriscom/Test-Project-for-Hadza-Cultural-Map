@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8' />
-    <title>yessss!Hadza Cultural Map</title>
+    <title>yplease!Hadza Cultural Map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
@@ -220,7 +220,7 @@ function switch_swahili() {
   header.appendChild(bylineText);
  //Switch the language of all of the chapters
      alert('Hellowww');
-  var chapter_counter = 1;
+  var chapter_counter = 0;
   config.chapters.forEach((record, idx) => {
      var title = document.createElement('h3');
      var image = new Image();  
@@ -229,13 +229,15 @@ function switch_swahili() {
      image.src = record.image;
      descr.innerHTML = record.description_sw;
        alert('Hellow');
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[chapter_counter].childNodes[0].childNodes[0]);
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[chapter_counter].childNodes[0].childNodes[0]);
-     features.childNodes[chapter_counter].childNodes[0].removeChild(features.childNodes[chapter_counter].childNodes[0].childNodes[0]);
+     current_chap = document.getElementbyId(record.id);
+      
+     current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
+     current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
+     current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
      alert('Hellow???');
-     features.childNodes[chapter_counter].childNodes[0].appendChild(title);
-     features.childNodes[chapter_counter].childNodes[0].appendChild(image);
-     features.childNodes[chapter_counter].childNodes[0].appendChild(descr);
+     current_chap.childNodes[0].appendChild(title);
+     current_chap.childNodes[0].appendChild(image);
+     current_chap.childNodes[0].appendChild(descr);
      chapter_counter = chapter_counter + 1;
       alert(chapter_counter);
      
