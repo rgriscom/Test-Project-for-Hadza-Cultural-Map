@@ -233,13 +233,16 @@ function switch_swahili() {
      current_chap = document.getElementById(record.id);
       alert('Element gotten');
      current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
-
+    if (record.title) {
+          current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
+      }
      current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
       if (record.image) {
           current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
       }
-     
+     if (record.title) {
      current_chap.childNodes[0].appendChild(title);
+     }
      if (record.image) {
         features.childNodes[chapter_counter].childNodes[0].appendChild(image);
      }
