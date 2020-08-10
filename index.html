@@ -228,8 +228,9 @@ function switch_swahili() {
      title.innerText = record.title_sw;
      image.src = record.image;
      descr.innerHTML = record.description_sw;
-       alert('Hellow');
-     current_chap = document.getElementbyId(record.id);
+     alert('Hellow');
+     alert(record.id);
+     current_chap = document.getElementById(record.id);
       
      current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
      current_chap.childNodes[0].removeChild(current_chap.childNodes[0].childNodes[0]);
