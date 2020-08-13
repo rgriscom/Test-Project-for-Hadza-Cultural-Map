@@ -21,6 +21,7 @@ var config = {
             description_sw: '<img id="test_image" src="https://upload.wikimedia.org/wikipedia/commons/2/26/Hadza_montage.png" align="left" style=”margin: 10px 10px 10px 10px /> <p>Jamii ya Wahadzabe katika bonde la Yaeda Chini waliomba shirika la UCRT kuwasaidia katika kufanikisha zoezi la ramani za utamaduni. Zaidi ya Wahadzabe 200 wakiwemo vijana na wazee, wanaume na wanawake, walishiriki katika zoezi hilo miezi ya Oktoba 2004 na Oktoba 2006. Malengo makuu ya zoezi hilo yalikuwa pamoja na: a) wazee wapatie nafasi kueleza kwa vijana uwiano kati ya ardhi na utamaduni kwa kuwaonyesha na kusimulia hadithi na historia ya maeneo maalum; b) kuonyesha wazi kwa watu wa nje na viongozi wa Serikali haki ya umilikaji wa ardhi inayotokana na historia na ujuzi wa ndani wa maeneo; na kwa njia hiyo c) kuongeza utetezi kwa haki yao ya ardhi na matumizi ya mali asili. </p>',
             alignment: 'left',
             opacity: 'normal',
+            sound:'no',
             video: 'no',
             location: {
                 center: [-36.28278, -0.78869],
@@ -45,6 +46,7 @@ var config = {
             alignment: 'left',
             opacity: 'normal',
             video: 'no',
+            sound: 'no',
             location: {
                 center: [31.47641, -6.90268],
                 zoom: 5.4,
@@ -68,10 +70,11 @@ var config = {
             title_sw: '',
             image: 'https://www.dropbox.com/s/up0kju55n0y758n/bar_photos1.png?raw=1',
             description: "<p></p><p>But, because we move in search of seasonal food and other necessary natural products such as arrow poison, special stones for sharpening tools and for our smoking pipes, it has been easy for neighboring people to move into and take our land. We also are a peaceful people who do not like confrontation so that rather than fight people who invade we have always moved away. Also, because we do not plant crops or herd livestock, most people including government leaders, consider our lands to be empty and unused. They don't understand how we use and depend on the land and a healthy environment. The result is that we have lost 90% of our land within the last 50 years. And the land that has been lost to others is seriously degraded environmentally - it is very sick. </p><p></p><p><img src='https://www.dropbox.com/s/hs6eznpzxyy6kwa/bar_photos2.png?raw=1' width='50%'></p><p></p><p> Not only do we depend on the land and a healthy environment for our daily needs, loss of land also deprives us of our cultural identity and the means to move with dignity into the future world. Our right to modern education and health care must be based on a foundation of land and a healthy environment. We hope that this booklet helps others to understand and respect our need for and deep connection with the land and to support us in our quest for land & natural resource rights.</p>",
-            description_sw: "<p></p><p>But, because we move in search of seasonal food and other necessary natural products such as arrow poison, special stones for sharpening tools and for our smoking pipes, it has been easy for neighboring people to move into and take our land. We also are a peaceful people who do not like confrontation so that rather than fight people who invade we have always moved away. Also, because we do not plant crops or herd livestock, most people including government leaders, consider our lands to be empty and unused. They don't understand how we use and depend on the land and a healthy environment. The result is that we have lost 90% of our land within the last 50 years. And the land that has been lost to others is seriously degraded environmentally - it is very sick. </p><p></p><p><img src='https://www.dropbox.com/s/hs6eznpzxyy6kwa/bar_photos2.png?raw=1' width='50%'></p><p></p><p> Not only do we depend on the land and a healthy environment for our daily needs, loss of land also deprives us of our cultural identity and the means to move with dignity into the future world. Our right to modern education and health care must be based on a foundation of land and a healthy environment. We hope that this booklet helps others to understand and respect our need for and deep connection with the land and to support us in our quest for land & natural resource rights.</p>",
+            description_sw: "<p><audio id='myAudio'><source src='https://www.dropbox.com/s/i6f5ve5pt2eh7wu/2016-11-14_Gudo_Story_2_%28Bush_pig%29_37.mp3?dl=0' type='audio/mpeg'></audio></p><p>But, because we move in search of seasonal food and other necessary natural products such as arrow poison, special stones for sharpening tools and for our smoking pipes, it has been easy for neighboring people to move into and take our land. We also are a peaceful people who do not like confrontation so that rather than fight people who invade we have always moved away. Also, because we do not plant crops or herd livestock, most people including government leaders, consider our lands to be empty and unused. They don't understand how we use and depend on the land and a healthy environment. The result is that we have lost 90% of our land within the last 50 years. And the land that has been lost to others is seriously degraded environmentally - it is very sick. </p><p></p><p><img src='https://www.dropbox.com/s/hs6eznpzxyy6kwa/bar_photos2.png?raw=1' width='50%'></p><p></p><p> Not only do we depend on the land and a healthy environment for our daily needs, loss of land also deprives us of our cultural identity and the means to move with dignity into the future world. Our right to modern education and health care must be based on a foundation of land and a healthy environment. We hope that this booklet helps others to understand and respect our need for and deep connection with the land and to support us in our quest for land & natural resource rights.</p>",
             alignment: 'center',
             opacity: 'full',
             video: 'no',
+            sound: 'yes',
             location: {
                 center: [31.47641, -6.90268],
                 zoom: 5.4,
@@ -99,6 +102,7 @@ var config = {
             alignment: 'left',
             opacity: 'normal',
             video: 'no',
+            sound: 'no',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
@@ -122,6 +126,7 @@ var config = {
             alignment: 'left',
             opacity: 'normal',
             video: 'no',
+            sound: 'no',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
@@ -151,6 +156,7 @@ var config = {
             alignment: 'left',
             opacity: 'normal',
             video: 'no',
+            sound: 'no',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
@@ -188,6 +194,7 @@ var config = {
             alignment: 'left',
             opacity: 'normal',
             video: 'no',
+            sound: 'no',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9.26,
@@ -225,6 +232,7 @@ var config = {
             alignment: 'left',
             opacity: 'normal',
             video: 'no',
+            sound: 'no',
             location: {
                 center: [35.146062,  -3.990548],
                 zoom: 13,
@@ -255,6 +263,7 @@ var config = {
             alignment: 'left',
             opacity: 'normal',
             video: 'no',
+            sound: 'no',
             location: {
                 center: [35.364933,  -3.808903],
                 zoom: 13,
@@ -285,36 +294,7 @@ var config = {
             alignment: 'center',
             opacity: 'hidden',
             video: 'yes',
-            location: {
-                center: [34.69620,  -3.67432],
-                zoom: 9,
-                pitch: 0,
-                bearing: 0
-            },
-            onChapterEnter: [
-                {
-                    layer: 'hadza-cultural-map',
-                    opacity: 1
-                }
-            ],
-            onChapterExit: [
-
-                {
-                    layer: 'hadza-cultural-map',
-                    opacity: 0
-                }
-            ]
-        },
-        {
-            id: 'video2',
-            title: 'After the video',
-            title_sw: 'Baada ya video',
-            image: '',
-            description: 'How was it?',
-            description_sw: 'Ilikuwaje?',
-            alignment: 'left',
-            opacity: 'normal',
-            video: 'no',
+            sound: 'no',
             location: {
                 center: [34.69620,  -3.67432],
                 zoom: 9,
@@ -335,6 +315,7 @@ var config = {
                 }
             ]
         }
+        
        
 
     ]
