@@ -303,7 +303,7 @@ var config = {
             description_sw: '<video loop id="myVideo"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
             alignment: 'center',
             opacity: 'hidden',
-            video: 'yes',
+            video: 'myVideo',
             sound: 'no',
             location: {
                 center: [34.69620,  -3.67432],
@@ -331,11 +331,11 @@ var config = {
             title_sw: '',
             image: '',
             image_width: '100%',
-            description: '<video loop id="myVideo2"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
-            description_sw: '<video loop id="myVideo2"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
+            description: '<video loop id="myVideo2" width="320" height="240"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
+            description_sw: '<video loop id="myVideo2" width="320" height="240"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
             alignment: 'center',
             opacity: 'hidden',
-            video: 'yes',
+            video: 'myVideo2',
             sound: 'no',
             location: {
                 center: [34.69620,  -3.67432],
