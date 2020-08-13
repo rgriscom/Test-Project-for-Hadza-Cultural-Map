@@ -324,6 +324,38 @@ var config = {
                     opacity: 0
                 }
             ]
+        },
+        {
+            id: 'video2',
+            title: '',
+            title_sw: '',
+            image: '',
+            image_width: '100%',
+            description: '<video loop id="myVideo2"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
+            description_sw: '<video loop id="myVideo2"><source src="https://www.dropbox.com/s/0llwi9me25vvmn4/Hadza%20Foraging%20Compilation.mp4?raw=1" type="video/mp4"></video><div id="myContent"><h1>Foraging Compilation</h1><p>The Hadza forage for honey and roots.</p></div>',
+            alignment: 'center',
+            opacity: 'hidden',
+            video: 'yes',
+            sound: 'no',
+            location: {
+                center: [34.69620,  -3.67432],
+                zoom: 9,
+                pitch: 0,
+                bearing: 0
+            },
+            onChapterEnter: [
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+
+                {
+                    layer: 'hadza-cultural-map',
+                    opacity: 0
+                }
+            ]
         }
         
        
