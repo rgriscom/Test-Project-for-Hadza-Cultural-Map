@@ -394,8 +394,8 @@ map.on("load", function() {
             response.element.classList.add('full_active');
         }
         
-        if (chapter.video == 'yes') {
-            var video = document.getElementById("myVideo");
+        if (chapter.video != 'no') {
+            var video = document.getElementById(chapter.video);
             var overlay = document.getElementById("myContent");
             video.play();
             video.style.opacity = 1;
@@ -427,8 +427,8 @@ map.on("load", function() {
             response.element.classList.remove('full_active');
             response.element.classList.add('hidden_step');
         }
-        if (chapter.video == 'yes') {
-            var video = document.getElementById("myVideo");
+        if (chapter.video != 'no') {
+            var video = document.getElementById(chapter.video);
             var overlay = document.getElementById("myContent");
             video.pause();
             video.style.visibility = 'hidden';
