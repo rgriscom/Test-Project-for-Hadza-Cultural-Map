@@ -124,10 +124,7 @@
             font-size: 13px;
         }
 
-        .step img {
-            width: 100%;
-        }
-        
+   
 
         @media (max-width: 750px) {
             #features {
@@ -303,6 +300,7 @@ config.chapters.forEach((record, idx) => {
     if (record.image) {
         var image = new Image();  
         image.src = record.image;  
+        image.width = record.image_width;
         chapter.appendChild(image);
     }
     
