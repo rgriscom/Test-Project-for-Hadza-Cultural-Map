@@ -8,8 +8,8 @@ var config = {
     title_sw: '<center>Watu wa Kwanza</center>',
     subtitle: '<center>Land, Culture, History & Destiny</center>',
     subtitle_sw: '<center>Ardhi, Utamaduni, Historia, na Majaliwa</center>',
-    byline: '<center><i>An interactive story</i></center><p><center>English-<a onclick="switch_swahili()">Swahili</a></center></p>',
-    byline_sw: '<center><i>Hadithi</i></center><p><center><a onclick="switch_english()">English</a>-Swahili</center></p>',
+    byline: '<center><i>An interactive story</i></center><p><center>English-<a onclick="switch_swahili()">Kiswahili</a></center></p>',
+    byline_sw: '<center><i>Hadithi ya ingiliani</i></center><p><center><a onclick="switch_english()">English</a>-Kiswahili</center></p>',
     footer: '<a href="https://rgriscom.github.io/Test-Project-for-Hadza-Cultural-Map-2/">Click here to view all of areas of cultural significance to the Hadza </a>',
     chapters: [
         {
