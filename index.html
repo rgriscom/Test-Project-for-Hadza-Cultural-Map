@@ -404,6 +404,10 @@ map.on("load", function() {
             video.style.visibility = 'visible';
             overlay.style.visibility = 'visible';
         }
+        if (chapter.sound == 'yes') {
+            var sound = document.getElementById("myAudio");
+            sound.play();
+        }
         map.flyTo(chapter.location);
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
@@ -430,6 +434,10 @@ map.on("load", function() {
             video.pause();
             video.style.visibility = 'hidden';
             overlay.style.visibility = 'hidden';
+        }
+        if (chapter.sound == 'yes') {
+            var sound = document.getElementById("myAudio");
+            sound.pause();
         }
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
