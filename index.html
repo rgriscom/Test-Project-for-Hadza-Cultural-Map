@@ -404,8 +404,8 @@ map.on("load", function() {
             video.style.visibility = 'visible';
             overlay.style.visibility = 'visible';
         }
-        if (chapter.sound == 'yes') {
-            var sound = document.getElementById("myAudio");
+        if (chapter.sound != 'no') {
+            var sound = document.getElementById(chapter.sound);
             sound.play();
         }
         map.flyTo(chapter.location);
@@ -435,8 +435,8 @@ map.on("load", function() {
             video.style.visibility = 'hidden';
             overlay.style.visibility = 'hidden';
         }
-        if (chapter.sound == 'yes') {
-            var sound = document.getElementById("myAudio");
+        if (chapter.sound != 'no') {
+            var sound = document.getElementById(chapter.sound);
             sound.pause();
         }
         if (chapter.onChapterExit.length > 0) {
