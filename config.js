@@ -4,7 +4,7 @@ var config = {
     showMarkers: false,
     alignment: 'left',
     theme: 'light',
-    title: '<center>1Original People</center>',
+    title: '<center>Original People</center>',
     title_sw: '<center>Watu wa Kwanza</center>',
     subtitle: '<center>Land, Culture, History & Destiny</center>',
     subtitle_sw: '<center>Ardhi, Utamaduni, Historia, na Majaliwa</center>',
