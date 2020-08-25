@@ -22,7 +22,7 @@ var config = {
             description_sw: '<audio id="intro"><source src="https://drive.google.com/file/d/1aKHiUTLMmIN0WTb_nfszQzyDWQn0_R2t/preview?usp=sharing" src="https://drive.google.com/uc?export=view&id=1aKHiUTLMmIN0WTb_nfszQzyDWQn0_R2t"  width="55%" style="border:5px solid black;margin:0px 20px 20px 0px" align="left"> <p><b>Jamii ya Wahadzabe</b> katika bonde la Yaeda Chini waliomba shirika la UCRT kuwasaidia katika kufanikisha zoezi la ramani za utamaduni. Zaidi ya Wahadzabe 200 wakiwemo vijana na wazee, wanaume na wanawake, walishiriki katika zoezi hilo miezi ya Oktoba 2004 na Oktoba 2006. Malengo makuu ya zoezi hilo yalikuwa pamoja na: a) wazee wapatie nafasi kueleza kwa vijana uwiano kati ya ardhi na utamaduni kwa kuwaonyesha na kusimulia hadithi na historia ya maeneo maalum; b) kuonyesha wazi kwa watu wa nje na viongozi wa Serikali haki ya umilikaji wa ardhi inayotokana na historia na ujuzi wa ndani wa maeneo; na kwa njia hiyo c) kuongeza utetezi kwa haki yao ya ardhi na matumizi ya mali asili. </p>',
             alignment: 'left',
             opacity: 'normal',
-            sound:'no',
+            sound:'intro',
             video: 'no',
             location: {
                 center: [-36.28278, -0.78869],
